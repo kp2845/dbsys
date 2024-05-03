@@ -7,7 +7,7 @@ $EMP_ID = $_REQUEST["client_id"];
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $client_id);
 
-//check if function worked and then return to associates page
+//check if function worked and then return to clients page
 if($stmt->execute() === TRUE) {
     echo "<script>window.location.href = 'clients.php'</script>";
 }
