@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kairipur/public_html/dbsys2
+    - /bin/cp -R dbsys2 $DEPLOYPATH
