@@ -6,13 +6,13 @@ $sql = "update clients set client_name = ?, client_region = ?, client_revenue = 
 //set parameters to form requst
 $client_id = $_REQUEST["client_id"];
 $client_name = $_REQUEST["client_name"];
-$client_region = $_REQUEST["Lname"];
-$client_revenue = $_REQUEST["Salary"];
-$client_rep = $_REQUEST["Bonus"];
+$client_region = $_REQUEST["client_region"];
+$client_revenue = $_REQUEST["client_revenue"];
+$client_rep = $_REQUEST["client_rep"];
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("ssiisi", $client_name, $client_region, $client_revenue, $client_rep, $client_id);
+$stmt->bind_param("ssisi", $client_name, $client_region, $client_revenue, $client_rep, $client_id);
 echo "<b>Adding New Records......Please wait</b><br>";
 if($stmt->execute() === TRUE) {
     echo "<script>window.location.href = 'clients.php'</script>";
