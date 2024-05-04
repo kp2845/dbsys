@@ -1,5 +1,8 @@
 <?php
-header("Cache-Control: no-cache");
+//header("Cache-Control: no-cache");
+header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
+header("Pragma: no-cache"); // HTTP 1.0.
+header("Expires: 0"); // Proxies.
 $servername = "localhost";
 $username = "kairipur_kairidb";
 $password = "924Apple2!";
