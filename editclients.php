@@ -2,7 +2,7 @@
 include "dbconn.php";
 
 $sql = "SELECT * FROM clients where client_id = ?";
-$EMP_ID = $_REQUEST["client_id"];
+$client_id = $_REQUEST["client_id"];
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i",$client_id);
 $stmt->execute();
