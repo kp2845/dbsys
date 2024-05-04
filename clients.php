@@ -3,7 +3,6 @@ include "dbconn.php";
 echo "<table border=1><border-color=#FE5302><tr><th>Client Name</th><th>Region</th><th>Revenue</th><th>Representative</th></tr>";
 $sql = "select * from clients";
 $result = $conn->query($sql);
-
 if($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         echo "<tr><td>" . $row["client_name"] . "</td><td>" . $row["client_region"] . "</td><td>" . $row["client_revenue"] . "</td><td>" . $row["client_rep"]
