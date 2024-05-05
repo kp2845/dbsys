@@ -5,7 +5,7 @@ include "dbconn.php";
 $sql = "insert into managers (mgr_id, budget, direct_reports, total_reports, mentee, departments_dept_id, team_name) VALUES (?, ?, ?, ?, ?, ?, ?)";
 
 //set parameters to form requst
-$mgr_id = $_REQUEST["mgr__id"];
+$mgr_id = $_REQUEST["mgr_id"];
 $budget = $_REQUEST["budget"];
 $direct_reports = $_REQUEST["direct_reports"];
 $total_reports = $_REQUEST["total_reports"];
