@@ -1,7 +1,7 @@
 <?php
 include "dbconn.php";
 
-$sql = "update Education set assoc_score = ?, leader_score = ?, univ_score = ?,  = ? where education_id = ?";
+$sql = "update Education set assoc_score = ?, leader_score = ?, univ_score = ? where education_id = ?";
 
 //set parameters to form requst
 //$education_id = $_REQUEST["education_id"]; Not sure if this will be needed
