@@ -15,6 +15,11 @@ echo <<<MENU
     <a href="locations.php">Locations</a></li>
     <a href="departments.php">Departments</a></li>
     <br><br>
+    <p><h3>This section contains all reports below</h3></p>
+    <a href="reports1.php">Audit Report - Broken</a></li>
+    <a href="reports2.php">Locations Report - Broken</a></li>
+    <a href="reports3.php">Project Report - Broken</a></li>
+    <br><br>
 </body>
 </html>
 MENU;
