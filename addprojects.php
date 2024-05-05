@@ -10,10 +10,10 @@ $Associates_EMP_ID = $_REQUEST["Associates_EMP_ID"];
 $role = $_REQUEST["role"];
 $stakeholder = $_REQUEST["stakeholder"];
 $proj_budget = $_REQUEST["proj_budget"];
-$proj_status = $_REQUEST["project_status"];
+$proj_status = $_REQUEST["proj_status"];
 $method = $_REQUEST["method"];
-$proj_start = $_REQUEST["proj_start,"];
-$proj_end = $_REQUEST["project_end"];
+$proj_start = $_REQUEST["proj_start"];
+$proj_end = $_REQUEST["proj_end"];
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
