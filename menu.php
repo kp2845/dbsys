@@ -10,7 +10,7 @@ echo <<<MENU
 <ul>
     <li><a href="associates.php">Associates</a></li>
     <li><a href="clients.php">Clients</a></li>
-    <li><a href="Voluneteering.php">Volunteering</a></li>
+    <li><a href="Volunteering.php">Volunteering</a></li>
     <li><a href="about.asp">About</a></li>
 </ul>
 </body>
