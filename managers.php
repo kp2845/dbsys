@@ -17,4 +17,4 @@ if($result->num_rows > 0) {
 echo "</table>";
 $conn->close();
 ?>
-<a href="addmanagers.htm">Click Here to add a new Volunteering Event</a>
+<a href="addmanagers.htm">Click Here to add a new Manager</a>
