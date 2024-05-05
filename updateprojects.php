@@ -1,7 +1,7 @@
 <?php
 include "dbconn.php";
 
-$sql = "update projectcs set Associates_EMP_ID = ?, role = ?, stakeholder = ?, proj_budget = ?, proj_status = ?, method = ?, proj_start = ?, proj_end = ? where project_id = ?";
+$sql = "update projects set Associates_EMP_ID = ?, role = ?, stakeholder = ?, proj_budget = ?, proj_status = ?, method = ?, proj_start = ?, proj_end = ? where project_id = ?";
 
 //set parameters to form requst
 $Associates_EMP_ID = $_REQUEST["Associates_EMP_ID"];
