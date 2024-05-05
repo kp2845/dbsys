@@ -16,4 +16,4 @@ if($result->num_rows > 0) {
 echo "</table>";
 $conn->close();
 ?>
-<a href="addvolunteer.htm">Click Here to add a new Education Item</a>
+<a href="addeducation.htm">Click Here to add a new Education Item</a>
