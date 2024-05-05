@@ -1,7 +1,7 @@
 <?php
 include "menu.php";
 include "dbconn.php";
-echo "<table border=1><border-color=#FE5302><tr><th>Employee ID</th><th><tr><th>Associate Score</th><th>Leader Score</th><th>University Score</th><th>Education ID</th></tr>";
+echo "<table border=1><border-color=#FE5302><tr><th>Employee ID</th><th>Associate Score</th><th>Leader Score</th><th>University Score</th><th>Education ID</th></tr>";
 $sql = "select * from Education";
 $result = $conn->query($sql);
 if($result->num_rows > 0) {
