@@ -1,7 +1,7 @@
 <?php
 include "dbconn.php";
 
-$sql = "update managers set mgr_id = ?, budget = ?, direct_reports = ?, total_reports = ?, mentee = ?, departments_dept_id = ?, team_name = ?  where team_name = ?";
+$sql = "update managers set mgr_id = ?, budget = ?, direct_reports = ?, total_reports = ?, mentee = ?, departments_dept_id = ?, team_name = ? where team_name = ?";
 
 //set parameters to form requst
 $mgr_id = $_REQUEST["mgr_id"];
