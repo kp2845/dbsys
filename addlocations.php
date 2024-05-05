@@ -8,7 +8,7 @@ $sql = "insert into locations (location_id, location_type, location_status, loca
 $location_id = $_REQUEST["location_id"];
 $location_type = $_REQUEST["location_type"];
 $location_status = $_REQUEST["location_status"];
-$location_tax, = $_REQUEST["location_tax,"];
+$location_tax = $_REQUEST["location_tax"];
 $location_capacity = $_REQUEST["location_capacity"];
 
 //prepare and bind values
