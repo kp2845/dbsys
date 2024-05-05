@@ -4,6 +4,7 @@ include "dbconn.php";
 $sql = "update managers set mgr_id = ?, budget = ?, direct_reports = ?, total_reports = ?, mentee = ?, departments_dept_id = ?, team_name = ?,  where team_name = ?";
 
 //set parameters to form requst
+$team_name = $_REQUEST["team_name"];
 $mgr_id = $_REQUEST["mgr_id"];
 $budget = $_REQUEST["budget"];
 $direct_reports = $_REQUEST["direct_reports"];
@@ -14,7 +15,6 @@ $team_name = $_REQUEST["team_name"];
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
-var_dump($row);
 $stmt->bind_param("idiisss", $mgr_id, $budget, $direct_reports, $total_reports, $mentee, $departments_dept_id, $team_name);
 echo "<b>Adding New Records......Please wait</b><br>";
 if($stmt->execute() === TRUE) {
