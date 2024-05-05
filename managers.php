@@ -1,7 +1,7 @@
 <?php
 include "menu.php";
 include "dbconn.php";
-echo "<table border=1><border-color=#FE5302><tr><th>Manager ID</th><th>Budget</th><th>Direct Reports</th><th>Total Reports</th><th>Mentee</th><th>Department ID</th><th>Team Name</th></tr>";
+echo "<table border=1><border-color=#FE5302><tr><th>Manager ##ID</th><th>Budget</th><th>Direct Reports</th><th>Total Reports</th><th>Mentee</th><th>Department ID</th><th>Team Name</th></tr>";
 $sql = "select * from managers";
 $result = $conn->query($sql);
 if($result->num_rows > 0) {
