@@ -1,7 +1,7 @@
 <?php
 include "dbconn.php";
 
-$sql = "update departments set division = ?, LOB = ? where dept_id = ?";
+$sql = "update departments set dept_id =?, division = ?, LOB = ? where dept_id = ?";
 
 //set parameters to form requst
 $dept_id = $_REQUEST["dept_id"];
