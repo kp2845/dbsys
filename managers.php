@@ -8,7 +8,7 @@ if($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         echo "<td><td>" . $row["mgr_id"] . "</td><td>" . $row["budget"] . "</td><td>"
             . $row["direct_reports"] . "</td><td>" . $row["total_reports"] . "</td><td>" . $row["mentee"] . "</td><td>"
-            . $row["dept_id"] . "</td><td>" . $row["team_name"]
+            . $row["dept_id"] . "</td><td>" . $row["team_name_left"]
             . "</td><td><a href='delmanagers.php?mgr_id=" . $row["mgr_id"] . "'>Delete Record</a>"
             . "</td><td><a href='editmanagers.php?mgr_id=" . $row["mgr_id"] . "'>Edit Record</a>"
             . "</td></tr>";
