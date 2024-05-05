@@ -17,4 +17,4 @@ if($result->num_rows > 0) {
 echo "</table>";
 $conn->close();
 ?>
-<a href="addlocations.htm">Click Here to add a new Location</a>
+<a href="addlocations.htm">Click Here to add a new Location here</a>
