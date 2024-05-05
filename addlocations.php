@@ -2,7 +2,7 @@
 include "dbconn.php";
 
 //var_dump($_REQUEST);
-$sql = "insert into location (location_id, location_type, location_status, location_tax, location_capacity) VALUES (?, ?, ?, ?, ?)";
+$sql = "insert into locations (location_id, location_type, location_status, location_tax, location_capacity) VALUES (?, ?, ?, ?, ?)";
 
 //set parameters to form requst
 $location_id = $_REQUEST["location_id"];
