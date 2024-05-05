@@ -2,7 +2,7 @@
 include "dbconn.php";
 
 //var_dump($_REQUEST);
-$sql = "insert into projects (project_id, Associates_EMP_ID, role, stakeholder, proj_budget, proj_status, method, proj_start, proj_end) VALUES (?, ?, ?, ?, ?, ?, ?, ?. ?)";
+$sql = "insert into projects (project_id, Associates_EMP_ID, role, stakeholder, proj_budget, proj_status, method, proj_start, proj_end) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
 //set parameters to form requst
 $project_id = $_REQUEST["project_id"];
