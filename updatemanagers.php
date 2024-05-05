@@ -4,14 +4,14 @@ include "dbconn.php";
 $sql = "update managers set mgr_id = ?, budget = ?, direct_reports = ?, total_reports = ?, mentee = ?, departments_dept_id = ?, team_name = ? where team_name = ?";
 
 //set parameters to form requst
+$team_name = $_REQUEST["team_name"];
 $mgr_id = $_REQUEST["mgr_id"];
 $budget = $_REQUEST["budget"];
 $direct_reports = $_REQUEST["direct_reports"];
 $total_reports = $_REQUEST["total_reports"];
 $mentee = $_REQUEST["mentee"];
 $departments_dept_id = $_REQUEST["departments_dept_id"];
-$team_name = $_REQUEST["team_name"];
-$team_name = $_REQUEST["team_name"];
+
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
