@@ -15,7 +15,7 @@ $team_name = $_REQUEST["team_name"];
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("idiisss", $mgr_id, $budget, $direct_reports, $total_reports, $mentee, $departments_dept_id, $team_name);
+$stmt->bind_param("sidiiss", $team_name, $mgr_id, $budget, $direct_reports, $total_reports, $mentee, $departments_dept_id);
 echo "<b>Adding New Records......Please wait</b><br>";
 if($stmt->execute() === TRUE) {
     echo "<script>window.location.href = 'managers.php'</script>";
