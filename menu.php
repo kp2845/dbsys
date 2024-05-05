@@ -12,6 +12,7 @@ echo <<<MENU
     <li><a href="clients.php">Clients</a></li>
     <li><a href="volunteering.php">Volunteering</a></li>
     <li><a href="education.php">Education</a></li>
+    <li><a href="locations.php">Locations</a></li>
     <li><a href="about.asp">About</a></li>
 </ul>
 </body>
