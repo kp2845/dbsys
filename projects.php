@@ -7,8 +7,8 @@ $result = $conn->query($sql);
 if($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         echo "<tr><td>" . $row["project_id"] . "</td><td>" . $row["Associates_EMP_ID"] . "</td><td>"
-            . $row["role"] . "</td><td>" . $row["stakeholder"] . "</td><td>" . $row["proj_budget"]
-            . $row["proj_status"] . "</td><td>" . $row["method"] . "</td><td>" . $row["proj_start"]
+            . $row["role"] . "</td><td>" . $row["stakeholder"] . "</td><td>" . $row["proj_budget"] . "</td><td>"
+            . $row["proj_status"] . "</td><td>" . $row["method"] . "</td><td>" . $row["proj_start"] . "</td><td>"
             . $row["proj_end"]
             . "</td><td><a href='delprojects.php?project_id=" . $row["project_id"] . "'>Delete Record</a>"
             . "</td><td><a href='editprojects.php?project_id=" . $row["project_id"] . "'>Edit Record</a>"
