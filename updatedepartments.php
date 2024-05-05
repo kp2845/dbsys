@@ -10,7 +10,7 @@ $LOB = $_REQUEST["LOB"];
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("ssisi", $dept_id, $division, $LOB);
+$stmt->bind_param("sss", $dept_id, $division, $LOB);
 echo "<b>Adding New Records......Please wait</b><br>";
 if($stmt->execute() === TRUE) {
     echo "<script>window.location.href = 'departments.php'</script>";
