@@ -1,7 +1,7 @@
 <?php
 include "dbconn.php";
 
-$sql = "update managers set mgr_id = ?, budget = ?, direct_reports = ?, total_reports = ?, mentee = ?, departments_dept_id = ?, team_name = ? where team_name = ?";
+$sql = "update managers set mgr_id = ?, budget = ?, direct_reports = ?, total_reports = ?, mentee = ?, departments_dept_id = ? where team_name = ?";
 
 //set parameters to form requst
 $team_name = $_REQUEST["team_name"];
@@ -15,7 +15,7 @@ $departments_dept_id = $_REQUEST["departments_dept_id"];
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("iidiisss", $mgr_id, $budget, $direct_reports, $total_reports, $mentee, $departments_dept_id, $team_name);
+$stmt->bind_param("idiisss", $mgr_id, $budget, $direct_reports, $total_reports, $mentee, $departments_dept_id, $team_name);
 echo "<b>Adding New Records......Please wait</b><br>";
 if($stmt->execute() === TRUE) {
     echo "<script>window.location.href = 'managers.php'</script>";
