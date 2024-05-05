@@ -13,6 +13,7 @@ echo <<<MENU
     <a href="volunteering.php">Volunteering</a></li>
     <a href="education.php">Education</a></li>
     <a href="locations.php">Locations</a></li>
+    <a href="departments.php">Locations</a></li>
     <br><br>
 </body>
 </html>
