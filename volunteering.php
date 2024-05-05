@@ -1,4 +1,5 @@
 <?php
+include "menu.php";
 include "dbconn.php";
 echo "<table border=1><border-color=#FE5302><tr><th>Volunteering ID</th><th>Type</th><th>Hours</th><th>Area</th><th>Volunteer</th></tr>";
 $sql = "select * from Volunteering";

@@ -1,4 +1,5 @@
 <?php
+include "menu.php";
 include "dbconn.php";
 echo "<table border=1><border-color=#FE5302><tr><th>Client Name</th><th>Region</th><th>Revenue</th><th>Representative</th></tr>";
 $sql = "select * from clients";
