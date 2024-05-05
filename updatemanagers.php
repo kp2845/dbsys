@@ -14,6 +14,7 @@ $team_name = $_REQUEST["team_name"];
 
 //prepare and bind values
 $stmt = $conn->prepare($sql);
+vardump($row);
 $stmt->bind_param("idiisss", $mgr_id, $budget, $direct_reports, $total_reports, $mentee, $departments_dept_id, $team_name);
 echo "<b>Adding New Records......Please wait</b><br>";
 if($stmt->execute() === TRUE) {
