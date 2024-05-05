@@ -6,7 +6,7 @@ $sql = "select * from Education";
 $result = $conn->query($sql);
 if($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row["EMP_ID"] . "</td><td>" . $row["assoc_score"] . "</td><td>"
+        echo "<tr><td>" . $row["Emp_ID"] . "</td><td>" . $row["assoc_score"] . "</td><td>"
             . $row["leader_score"] . "</td><td>" . $row["univ_score"] . "</td><td>" . $row["education_id"]
             . "</td><td><a href='deleducation.php?education_id=" . $row["education_id"] . "'>Delete Record</a>"
             . "</td><td><a href='editeducation.php?volunteering_id=" . $row["education_id"] . "'>Edit Record</a>"
