@@ -13,7 +13,7 @@ if ($result->num_rows >0) {
 
 ?>
 <form action="updateeducation.php">
-    <label for "Emp_ID">Volunteering ID:</label><br>
+    <label for "Emp_ID">Education ID:</label><br>
     <input type="number" id="Emp_ID" name="Emp_ID" readonly=True value="<?php echo $row["Emp_ID"]?>"<br><br>
 
     <label for "assoc_score">Associate Score:</label><br>
