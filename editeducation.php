@@ -4,7 +4,7 @@ include "dbconn.php";
 $sql = "SELECT * FROM Education where education_id = ?";
 $education_id = $_REQUEST["education_id"];
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("i",$education_id);
+$stmt->bind_param("s",$education_id);
 $stmt->execute();
 $result = $stmt->get_result();
 if ($result->num_rows >0) {
