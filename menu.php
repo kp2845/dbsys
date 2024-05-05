@@ -7,14 +7,13 @@ echo <<<MENU
     <title>Tables Menu</title>
 </head>
 <body>
-<ul>
-    <li><a href="associates.php">Associates</a></li>
-    <li><a href="clients.php">Clients</a></li>
-    <li><a href="volunteering.php">Volunteering</a></li>
-    <li><a href="education.php">Education</a></li>
-    <li><a href="locations.php">Locations</a></li>
-    <li><a href="about.asp">About</a></li>
-</ul>
+    <h1>Associate DB Project Tables Menu</h1>
+    <a href="associates.php">Associates</a></li>
+    <a href="clients.php">Clients</a></li>
+    <a href="volunteering.php">Volunteering</a></li>
+    <a href="education.php">Education</a></li>
+    <a href="locations.php">Locations</a></li>
+    
 </body>
 </html>
 MENU;
