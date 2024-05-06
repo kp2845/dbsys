@@ -1,7 +1,7 @@
 <?php
 include "dbconn.php";
 
-$sql = "update clients set client_name = ?, client_region = ?, client_revenue = ?, client_rep = ? where EMP_ID = ?";
+$sql = "update clients set client_name = ?, client_region = ?, client_revenue = ?, client_rep = ? where client_id = ?";
 
 //set parameters to form requst
 $client_id = $_REQUEST["client_id"];
