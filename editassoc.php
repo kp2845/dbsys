@@ -29,7 +29,7 @@ if ($result->num_rows >0) {
     <input type="Email" id="Email" name="Email" value="<?php echo $row["Email"]?>"<br><br>
 
     <label for "Mentor">Mentor:</label><br>
-    <input type="text" id="Email" name="Email" value="<?php echo $row["Email"]?>"<br><br>
+    <input type="text" id="Mentor" name="Mentor" value="<?php echo $row["Mentor"]?>"<br><br>
 
     <label for "Assoc_Street">Associate Street:</label><br>
     <input type="text" id="Assoc_Street" name="Assoc_Street" value="<?php echo $row["Assoc_Street"]?>"<br><br>
