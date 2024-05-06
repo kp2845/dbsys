@@ -15,7 +15,7 @@ echo <<<MENU
     <a href="locations.php">Locations</a></li>
     <a href="departments.php">Departments</a></li>
     <a href="managers.php">Managers</a></li>
-    <a href="projects.php">Projects</a></li>
+    <a href="assocaudit.php">Audit Report</a></li>
     <p><h3>This section contains all reports below</h3></p>
     <a href="reports1.php">Audit Report - Broken</a></li>
     <span>&nbsp;&#124;&nbsp;</span>
