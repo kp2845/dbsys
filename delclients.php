@@ -1,6 +1,6 @@
 <?php
 include "dbconn.php";
-$sql = "delete from Clients where client_id=?";
+$sql = "delete from clients where client_id=?";
 $client_id = $_REQUEST["client_id"];
 
 //bind values to stop from malicious additions
