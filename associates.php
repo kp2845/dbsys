@@ -10,7 +10,7 @@ if($result->num_rows > 0) {
         . $row["Salary"] . "</td><td>" . $row["Bonus"] . "</td><td>" . $row["Email"] . "</td><td>"
             . $row["Mentor"] . "</td><td>" . $row["Assoc_Street"] . "</td><td>" . $row["Assoc_City"] . "</td><td>"
             . $row["Assoc_State"] . "</td><td>" . $row["Assoc_zip"]
-        . "</td><td><a href='delassoc.php?EMP_ID=" . $row["EMP_ID"] . "'>Delete Record</a>" 
+        . "</td><td><a href='delassoc.php?EMP_ID=" . $row["EMP_ID"] . "'>Deletes Record</a>"
         . "</td><td><a href='editassoc.php?EMP_ID=" . $row["EMP_ID"] . "'>Edit Record</a>" 
         . "</td></tr>";
     }
