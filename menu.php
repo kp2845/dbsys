@@ -19,9 +19,9 @@ echo <<<MENU
     <p><h3>This section contains all reports below</h3></p>
     <a href="assocaudit.php">Audit Report</a></li>
     <span>&nbsp;&#124;&nbsp;</span>
-    <a href="reports2.php">Locations Report - Broken</a></li>
+    <a href="reports2.php">Locations Report</a></li>
     <span>&nbsp;&#124;&nbsp;</span>
-    <a href="reports3.php">Project Report - Broken</a></li>
+    <a href="reports3.php">Project Report</a></li>
     <br><br>
 </body>
 </html>
