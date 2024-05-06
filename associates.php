@@ -1,7 +1,6 @@
 <?php
 include "menu.php";
 include "dbconn.php";
-echo "<p><h3>You are viewing the Audit Report</h3></p>";
 echo "<table border=1><border-color=#FE5302><tr><th>First Name</th><th>Last Name</th><th>Salary</th><th>Bonus</th><th>Email</th><th>Mentor</th><th>Associate Street</th><th>Associate City</th><th>Associate State</th><th>Associate Zip</th></tr>";
 $sql = "select * from Associates";
 $result = $conn->query($sql);
