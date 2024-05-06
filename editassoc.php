@@ -27,7 +27,22 @@ if ($result->num_rows >0) {
     
     <label for "Email">Email:</label><br>
     <input type="Email" id="Email" name="Email" value="<?php echo $row["Email"]?>"<br><br>
-    
+
+    <label for "Mentor">Mentor:</label><br>
+    <input type="text" id="Email" name="Email" value="<?php echo $row["Email"]?>"<br><br>
+
+    <label for "Assoc_Street">Associate Street:</label><br>
+    <input type="text" id="Assoc_Street" name="Assoc_Street" value="<?php echo $row["Assoc_Street"]?>"<br><br>
+
+    <label for "Assoc_City">Associate City:</label><br>
+    <input type="text" id="Assoc_City" name="Assoc_City" value="<?php echo $row["Assoc_City"]?>"<br><br>
+
+    <label for "Assoc_State">Associate State:</label><br>
+    <input type="text" id="Assoc_State" name="Assoc_State" value="<?php echo $row["Assoc_State"]?>"<br><br>
+
+    <label for "Assoc_Zip">Associate Zip:</label><br>
+    <input type="number" id="Assoc_Zip" name="Assoc_Zip" value="<?php echo $row["Assoc_Zip"]?>"<br><br>
+
     <input type="hidden" id="EMP_ID" name="EMP_ID" value="<?php echo $row["EMP_ID"]?>"<br><br>
     
     <input type="submit" value="Click here to Submit">
